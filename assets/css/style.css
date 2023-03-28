@@ -41,8 +41,8 @@
     display: flex;
     list-style-type: none;
     align-items: flex-end;
-    font-size: 35px;
-    padding-top: 55px;
+    font-size: 30px;
+    padding-top: 85px;
 }
 .listaCabezado{
     display: inline-block;
@@ -65,4 +65,48 @@
     width: 100%;
     background: #f9ea9a;
 }
+
+
+/* ---------------------- Imagen en movimiento con texto por encima --------------------- */
+
+.seccionMovimiento{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.Imagen_movimiento{
+    width: 100%;
+    height: 750px;
+}
+.textoDeImagen{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 135px;
+    color: #6A381F;
+    text-shadow: #f9ea9a 1px 0 10px;
+}
+
+/*-----------Texto e Imagenes----------*/
+
+.imagenYtexto{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+.imagen1Index{
+    display: flex;
+    width: 1750px;
+    height: 650px;
+    margin-left: 35px;
+    background-image: url(../img/muchasMATES.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+
 
