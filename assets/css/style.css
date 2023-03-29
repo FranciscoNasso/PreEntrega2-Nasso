@@ -75,6 +75,7 @@
     display: inline-block;
     text-align: center;
     width: 100%;
+    background-color: #333;
 }
 .Imagen_movimiento{
     width: 100%;
@@ -137,8 +138,105 @@
     background-position: center;
     background-size: cover;
     border-radius: 25px;
-    
-
 }
 
+/* --------------- Footer --------------*/
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 275px;
+    background-color: #321404;
+}
+
+.footerDatos{
+    display: flex;
+    flex-direction: column;
+}
+.logoDirecTexto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #f9ea9a;
+}
+.Direc{
+    display: flex;
+    padding-left: 15px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.logoTelTexto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #f9ea9a;
+}
+.Num{
+    display: flex;
+    padding-left: 15px;
+}
+
+.dudasTexto{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+.logitoFooter{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.logoFooter{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+
+.footerContactos{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 65px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.logoTwitter{
+    display: flex;
+    margin-right: 15px;
+    color: #f9ea9a;
+}
+.logoInsta{
+    display: flex;
+    margin-right: 15px;
+    color: #f9ea9a;
+}
+.logoFace{
+    display: flex;
+    margin-right: 15px;
+    color: #f9ea9a;
+}
+.logoWhats{
+    display: flex;
+    color: #f9ea9a;
+}
+.fa-brands{
+    color: #f9ea9a;
+}
+
+.fa-brands:hover{
+    color: #333;
+    transition: 1s;
+}
 
