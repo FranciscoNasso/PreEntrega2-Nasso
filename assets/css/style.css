@@ -68,6 +68,26 @@
 }
 
 
+@media (max-width: 320px) {
+    .cabezado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        background-color: #6A381F;
+    }
+
+    .logoYNombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} 
+    
+
+
+
 /* ---------------------- Imagen en movimiento con texto por encima --------------------- */
 
 .seccionMovimiento{
