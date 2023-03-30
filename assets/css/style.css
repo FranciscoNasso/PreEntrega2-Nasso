@@ -240,3 +240,71 @@
     transition: 1s;
 }
 
+
+/*----------------------Contacto----------------------*/
+
+
+.seccionPrincipal{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    width: 100%;
+    height: 550px;
+}
+
+.datosDelContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 35px;
+    padding-top: 9%;
+    color: #f9ea9a;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.pinYDirec{
+    display: flex;
+    flex-direction: row;
+}
+.DirecContacto{
+    display: flex;
+    padding-left: 20px;
+}
+
+.telYNum{
+    display: flex;
+    flex-direction: row;
+    padding-top: 45px;
+}
+.NumContacto{
+    display: flex;
+    padding-left: 20px;
+}
+
+.mailyGmail{
+    display: flex;
+    flex-direction: row;
+    padding-top: 45px;
+}
+.mailContacto{
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.tituloContacto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 35px;
+    font-size: 55px;
+    color: #f9ea9a;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.mapaContacto{
+    display: flex;
+    padding-top: 55px;
+    border-radius: 125px;
+}

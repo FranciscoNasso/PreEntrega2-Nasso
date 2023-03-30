@@ -5,76 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/woodstock-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Contacto</title>
 </head>
 <body>
     <header class="cabezado">
-        <img class="logoHeader" src="../assets/img/IMG_3562.png" alt="Woodstock Materas">
+        <section class="logoYNombre">
+            <img class="logoHeader" src="../assets/img/IMG_3562.png" alt="Woodstock Materas">
         <h1 class="nombrePagina"> Woodstock Materas</h1>
+        </section>
         <nav> 
             <ul class="navegador">
                 <li>
-                    <a class="listaCabezadoIndex" href="../index.html">Inicio</a>
+                    <a class="listaCabezado" href="../index.html">Inicio</a>
                 </li>
                 <li>
-                    <a class="listaCabezadoMates" href="./mates.html">Mates</a>
+                    <a class="listaCabezado" href="./Pages/mates.html">Mates</a>
                 </li>
                 <li>
-                    <a class="listaCabezadoMateras" href="./materas.html">Materas</a>
+                    <a class="listaCabezado" href="./Pages/materas.html">Materas</a>
                 </li>
                 <li>
-                    <a class="listaCabezadoPosamates" href="./posamates.html">Posamates</a>
+                    <a class="listaCabezado" href="./Pages/posamates.html">Posamates</a>
                 </li>
                 <li>
-                    <a class="listaCabezadoContacto" href="./contacto.html">Contacto</a>
+                    <a class="listaCabezado" href="./Pages/contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
         <section class="seccionPrincipal">
-            <h3 class="tituloContacto">Contacto</h3>
-            <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1945.5816687190613!2d-56.13818586006734!3d-34.904810711860875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8115bfea78eb%3A0x676b2b6ad7753380!2sLuis%20Lamas%203478%2C%2011300%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1677715667370!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <ul>
-                <li> 
-                    <img class="logoDirecContatco" src="../assets/img/direccion.png" alt=""> 
+            <ul class="datosDelContacto">
+                <li class="pinYDirec"> 
+                    <i class="fa-solid fa-map-pin fa-beat"></i> 
                     <h6 class="DirecContacto">Luis Lamas 3478</h6>
                 </li>
-                <li>
-                    <img class="logoTelContacto" src="../assets/img/telefono.png" alt="">
+                <li class="telYNum">
+                    <i class="fa-sharp fa-solid fa-phone fa-beat"></i>
                     <h6 class="NumContacto">+598 094 101 095</h6>
                 </li>
-                <li>
-                    <img class="logoMailContacto" src="../assets/img/logoMail.jpg" alt="">
+                <li class="mailyGmail">
+                    <i class="fa-solid fa-envelope fa-beat"></i>
                     <h6 class="mailContacto">francisconasso@gmail.com</h6>
                 </li>
             </ul>
+            <h3 class="tituloContacto">Contacto</h3>
+            <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1945.5816687190613!2d-56.13818586006734!3d-34.904810711860875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8115bfea78eb%3A0x676b2b6ad7753380!2sLuis%20Lamas%203478%2C%2011300%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1677715667370!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </section>
     <footer class="footer">
         <ul class="footerDatos">
-            <li> 
-                <img class="logoDirec" src="../assets/img/direccion.png" alt=""> 
-                <h6 class="Direc">Luis Lamas 3478</h6>
+            <li class="logoDirecTexto"> 
+                <i class="fa-solid fa-map-pin fa-beat"></i> 
+                <p class="Direc">Luis Lamas 3478</p>
+            </li>
+            <li class="logoTelTexto">
+                <i class="fa-sharp fa-solid fa-phone fa-beat"></i>
+                <p class="Num">+598 094 101 095</p>
             </li>
             <li>
-                <img class="logoTel" src="../assets/img/telefono.png" alt="">
-                <h6 class="Num">+598 094 101 095</h6>
-            </li>
-            <li>
-                <form>
+                <form class="dudasTexto">
                     <label for="Dudas"></label>
                     <input class="dudas" placeholder="¿Alguna Duda?" type="text" id="Dudas">
                 </form>
             </li>
         </ul>
-        <img class="logoFooter" src="../assets/img/IMG_3562.png" alt="Woodstock Materas">
+        <section class="logitoFooter">
+            <img class="logoFooter" src="../assets/img/IMG_3562.png" alt="Woodstock Materas">
+        </section>
         <ul class="footerContactos">
-            <li class="logoTwitter"> <a href="https://twitter.com/FranciscoNasso" target="_blank"><img src="../assets/img/th.png" alt=""></a></li>
-            <li class="logoInsta"> <a href="https://www.instagram.com/fran_nasso/?next=%2F" target="_blank"><img src="../assets/img/insta.png" alt=""></a></li>
-            <li class="logoFace"><a href="https://www.facebook.com/francisco.nasso.9" target="_blank"><img src="../assets/img/th (1).png" alt=""></a></li>
-            <li class="logoWhats"><a href="https://walink.co/ab0812" target="_blank"><img src="../assets/img/whatsapp.png" alt=""></a></li>
+            <li class="logoTwitter"> <a href="https://twitter.com/FranciscoNasso" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="logoInsta"> <a href="https://www.instagram.com/fran_nasso/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="logoFace"><a href="https://www.facebook.com/francisco.nasso.9" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="logoWhats"><a href="https://walink.co/ab0812" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
         </ul>
     </footer>
 </body>
