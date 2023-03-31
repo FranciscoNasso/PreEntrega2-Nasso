@@ -68,26 +68,6 @@
 }
 
 
-@media (max-width: 320px) {
-    .cabezado{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        background-color: #6A381F;
-    }
-
-    .logoYNombre{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-} 
-    
-
-
-
 /* ---------------------- Imagen en movimiento con texto por encima --------------------- */
 
 .seccionMovimiento{
@@ -328,3 +308,83 @@
     padding-top: 55px;
     border-radius: 125px;
 }
+
+/*----------------Aplicando media queris-----------------*/
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+
+/*------------Index-----------------*/
+
+    .cabezado{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: #6A381F;
+    }
+
+    .logoYNombre{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .nombrePagina{
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .navegador{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+
+
+
+    .imagenYtexto{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+
+    .imagen1Index{
+        width: 70%;
+    }
+
+    .imagen2Index{
+        width: 70%;
+    }
+
+    .footerContactos{
+        font-size: 40px;
+    }
+
+    .logoDirecTexto{
+        font-size: 15px;
+    }
+    
+    .logoTelTexto{
+        font-size: 15px;
+    }
+    
+
+/*-----------------Contacto-----------------*/
+
+    .seccionPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .mapaContacto{
+        padding-bottom: 15px;
+    }
+
+
+} 
