@@ -388,3 +388,59 @@
 
 
 } 
+
+
+
+/*---------Resto de paginas-----------*/
+
+.ventas{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f9ea9a;
+}
+.imagenMate3{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 15%;
+    left: 10%;
+}
+.textoMate3{
+    position: absolute;
+    top: 52%;
+    left: 12%;
+    font-size: large;
+    font-family:'Shantell Sans', cursive;
+    color: #6A381F;
+}
+.imagenMate2{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 15%;
+    left: 40%;
+}
+.textoMate2{ 
+    position: absolute;
+    top: 52%;
+    left: 41%;
+    font-size: large;
+    font-family:'Shantell Sans', cursive;
+    color: #6A381F;
+}
+.imagenMate1{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 15%;
+    left: 70%;
+}
+.textoMate1{
+    position: absolute;
+    top: 52%;
+    left: 72%;
+    font-size: large;
+    font-family:'Shantell Sans', cursive;
+    color: #6A381F;
+}
