@@ -5,6 +5,11 @@
  #774324;
  #6A381F;
  */
+$marron-claro: #f9ea9a;
+$gris: #333;
+$marron: #6A381F;
+
+
 
 *{
     margin: 0;
@@ -17,7 +22,7 @@
 .cabezado{
     display: flex;
     justify-content: space-evenly;
-    background-color: #6a381f;
+    background-color: $marron;
     max-width: 100%;
     height: 150px;
 }
@@ -33,7 +38,7 @@
     border-radius: 100px;
 }
 .nombrePagina{
-    color: #f9ea9a;
+    color: $marron-claro;
     font-family: 'Shantell Sans', cursive;
     padding-left: 20px;
     font-size: 35px; 
@@ -50,7 +55,7 @@
     position: relative;
     padding-left: 15px;
     font-family: 'Shantell Sans', cursive;
-    color: #f9ea9a;
+    color: $marron-claro;
     text-decoration: none;
 }
 .listaCabezado:after {
@@ -64,7 +69,7 @@
 
 .listaCabezado:hover:after {
     width: 100%;
-    background: #f9ea9a;
+    background: $marron-claro;
 }
 
 
@@ -75,7 +80,7 @@
     display: inline-block;
     text-align: center;
     width: 100%;
-    background-color: #333;
+    background-color: $gris;
 }
 .Imagen_movimiento{
     width: 100%;
@@ -87,8 +92,8 @@
     left: 90px;
     font-family: 'Shantell Sans', cursive;
     font-size: 135px;
-    color: #6A381F;
-    text-shadow: #f9ea9a 1px 0 10px;
+    color: $marron;
+    text-shadow: $marron-claro 1px 0 10px;
 }
 
 /*-----------Texto e Imagenes----------*/
@@ -98,7 +103,7 @@
     justify-content: center;
     max-width: 100%;
     height: auto;
-    background-color: #333;
+    background-color: $gris;
 
 }
 .imagen1Index{
@@ -125,7 +130,7 @@
     font-size: 25px;
     text-align: center;
     font-family: 'Shantell Sans', cursive;
-    color: #f9ea9a;
+    color: $marron-claro;
     
 }
 .imagen2Index{
@@ -162,7 +167,7 @@
     margin-top: 15px;
     margin-left: 25px;
     font-size: 25px;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .Direc{
     display: flex;
@@ -176,7 +181,7 @@
     margin-top: 30px;
     margin-left: 25px;
     font-size: 25px;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .Num{
     display: flex;
@@ -215,28 +220,28 @@
 .logoTwitter{
     display: flex;
     margin-right: 15px;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .logoInsta{
     display: flex;
     margin-right: 15px;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .logoFace{
     display: flex;
     margin-right: 15px;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .logoWhats{
     display: flex;
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 .fa-brands{
-    color: #f9ea9a;
+    color: $marron-claro;
 }
 
 .fa-brands:hover{
-    color: #333;
+    color: $gris;
     transition: 1s;
 }
 
@@ -247,7 +252,7 @@
 .seccionPrincipal{
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: $gris;
     width: 100%;
     height: 550px;
 }
@@ -259,7 +264,7 @@
     list-style-type: none;
     font-size: 35px;
     padding-top: 9%;
-    color: #f9ea9a;
+    color: $marron-claro;
     font-family: 'Shantell Sans', cursive;
 }
 
@@ -299,7 +304,7 @@
     align-items: flex-start;
     padding-top: 35px;
     font-size: 55px;
-    color: #f9ea9a;
+    color: $marron-claro;
     font-family: 'Shantell Sans', cursive;
 }
 
@@ -321,7 +326,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        background-color: #6A381F;
+        background-color: $marron;
     }
 
     .logoYNombre{
@@ -397,7 +402,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #f9ea9a;
+    background-color: $marron-claro;
 }
 .imagenMate3{
     position: absolute;
@@ -412,7 +417,7 @@
     left: 12%;
     font-size: large;
     font-family:'Shantell Sans', cursive;
-    color: #6A381F;
+    color: $marron;
 }
 .imagenMate2{
     position: absolute;
@@ -442,5 +447,5 @@
     left: 72%;
     font-size: large;
     font-family:'Shantell Sans', cursive;
-    color: #6A381F;
+    color: $marron;
 }
