@@ -57,8 +57,8 @@ $marron: #6A381F;
     font-family: 'Shantell Sans', cursive;
     color: $marron-claro;
     text-decoration: none;
-}
-.listaCabezado:after {
+
+&:after {
     content: "";
     display: block;
     margin: auto;
@@ -67,9 +67,10 @@ $marron: #6A381F;
     transition: all .6s;
 }
 
-.listaCabezado:hover:after {
+&:hover:after {
     width: 100%;
     background: $marron-claro;
+}
 }
 
 
@@ -238,11 +239,12 @@ $marron: #6A381F;
 }
 .fa-brands{
     color: $marron-claro;
-}
 
-.fa-brands:hover{
+
+&:hover{
     color: $gris;
     transition: 1s;
+}
 }
 
 
