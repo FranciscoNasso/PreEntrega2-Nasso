@@ -208,7 +208,7 @@
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
-  font-size: 65px;
+  font-size: 30px;
   margin-right: 35px;
   margin-top: 10px;
 }
@@ -312,12 +312,44 @@
   border-radius: 125px;
 }
 
+.ventasImagenes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 600px;
+  background-color: #f9ea9a;
+}
+
+.imagenMate3 {
+  display: flex;
+  height: 350px;
+  width: 350px;
+}
+
+.imagenMate2 {
+  height: 350px;
+  width: 350px;
+}
+
+.imagenMate1 {
+  height: 350px;
+  width: 350px;
+}
+
+.textoMate{
+  font-size: 17px;
+  font-family: "Shantell Sans", cursive;
+  color: #321404;
+}
 /*----------------Aplicando media queris-----------------*/
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 1200px) {
   /*------------Index-----------------*/
   .cabezado {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
     background-color: #6A381F;
@@ -369,43 +401,27 @@
   .mapaContacto {
     padding-bottom: 15px;
   }
+  .footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #321404;
+  }
+  .logoFooter{
+    padding-top: 25px;
+  }
+  .ventasImagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 /*---------Resto de paginas-----------*/
-.ventasImagenes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 600px;
-  background-color: #f9ea9a;
-}
 
-.imagenMate3 {
-  display: flex;
-  height: 350px;
-  width: 350px;
-}
-
-.imagenMate2 {
-  height: 350px;
-  width: 350px;
-}
-
-.imagenMate1 {
-  height: 350px;
-  width: 350px;
-}
-
-.ventasTexto {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  font-size: 25px;
-  font-family: "Shantell Sans", cursive;
-  color: #321404;
-  background-color: #f9ea9a;
-}
 
 /*# sourceMappingURL=style.css.map */
